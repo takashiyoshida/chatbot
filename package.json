@@ -1,0 +1,15 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot based on Building Chatbot with Node.js class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ". ./.tokens && node app.js"
+  },
+  "author": "Takashi Yoshida",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.5.1"
+  }
+}
